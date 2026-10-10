@@ -1,2 +1,0 @@
-SolarWinds Orion educational demo update
-Version: 1.0
