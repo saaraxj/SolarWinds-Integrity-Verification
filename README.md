@@ -37,7 +37,7 @@ Expected behavior:
 **Important:** The final verification exits with status code `1` on purpose: an altered file fails validation. To reset the sample, run `python integrity_demo.py setup` again.
 
 ## Option B — Build and run the Windows EXE
-A Windows `.exe` must be built **on Windows**. The ZIP does not already contain a Windows EXE. On a Windows PC with Python installed:
+A Windows `.exe` must be built **on Windows**. The Windows executable is included in the submission ZIP. It can also be rebuilt using the provided build script. On a Windows PC with Python installed:
 
 1. Double-click `build_exe_windows.bat` (or run it from Command Prompt).
 2. The batch file installs PyInstaller if necessary and produces `dist\integrity_demo.exe`.
