@@ -50,7 +50,7 @@ A Windows `.exe` must be built **on Windows**. The Windows executable is include
 .\integrity_demo.exe verify
 ```
 
-The EXE creates its `release` and `trusted_baseline` folders next to the EXE. A terminal is required because the application is command-line based. If your instructor requires an EXE inside the uploaded ZIP, **copy `dist\integrity_demo.exe` into the main submission folder and create a new ZIP** before uploading. Ensure its size stays under 100 MB.
+The EXE creates its `release` and `trusted_baseline` folders next to the EXE. A terminal is required because the application is command-line based. 
 
 ## Evidence for case study
 Capture actual screenshots of:
