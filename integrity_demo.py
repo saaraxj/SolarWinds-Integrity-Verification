@@ -1,8 +1,7 @@
-"""Educational supply-chain artifact integrity demonstration.
+"""Supply-chain artifact integrity demonstration.
 
 A trusted manifest is created in a protected directory outside the release folder.
 The verifier compares SHA-256 digests against that baseline and blocks a changed file.
-This is NOT a complete defense against a compromised build or signing system.
 """
 from pathlib import Path
 import hashlib
